@@ -1,8 +1,8 @@
 # Unidad 3
 ## Week 8
-### Semana 37
+### Sesión 37
 * Formmulario
 * Pokemones
-### Semana 38
+### Sesión 38
 * Arrays
-### Semana 39
+### Sesión 39
