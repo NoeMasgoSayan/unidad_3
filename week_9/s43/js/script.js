@@ -1,12 +1,9 @@
 // Modificación de arrays
 
 //! .map(función)
-// El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
-
 let nums = [1, 2, 3, 4, 5];
 console.log(nums);
 
-//TODO: Usando map
 let numsPorDos = nums.map((n) => n * 2);
 
 console.log(numsPorDos);
@@ -43,8 +40,6 @@ console.log(palabrasSize);
 console.log(palabrasTamaño);
 
 //! .reduce()
-// El método reduce() aplica una función a un acumulador y a cada valor de un array (de izquierda a derecha) para reducir a un único valor.
-
 console.log(nums);
 
 let suma = nums.reduce((a, b) => a + b, 0);
@@ -67,6 +62,32 @@ puntos.sort((a, b) => a - b);
 console.log("Ordenamiento numérico estricto");
 console.log(puntos);
 
+//! .reverse()
+const arr = [true, 1, "hola", 54.76, "a"];
+console.log(arr);
+
+arr.reverse();
+console.log(arr);
+
+//! .split()
+const frase = "Hola buenos días a todos";
+console.log(frase);
+
+let palabra = frase.split(" ");
+console.log(palabra);
+
+const csv = "Perú,Argentina,Chile,Colombia";
+console.log(csv);
+
+let paises = csv.split(",");
+console.log(paises);
+
+//! .join()
+let strPalabras = palabra.join(" ");
+console.log(strPalabras);
+
+let strPaises = paises.join();
+console.log(strPaises);
 
 /*
 ? holmjn
