@@ -14,7 +14,7 @@ $(document).ready(function () {
   // .attr("atributo", "valor")
   $("#koala").attr(
     "src",
-    "link"
+    "https://static.vecteezy.com/system/resources/previews/005/161/891/non_2x/cartoon-baby-koala-sitting-on-tree-stump-free-vector.jpg"
   );
 
   // Evento de click
