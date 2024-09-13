@@ -7,5 +7,10 @@ p {
 }
 
 body {
-  background-color: linen;
+  background-color: lightgrey;
+}
+
+.parrafo {
+  color: white;
+  background-color: black;
 }
